@@ -24,7 +24,7 @@
 
 .post-top-box::after {
   content: '';
-  background-image: url(img/list_bg1.png);
+  background-image: url(../images/list_bg1.png);
   width: 294px;
   height: 143px;
   display: inline-block;
@@ -35,7 +35,7 @@
 
 .post-top-box::before {
   content: '';
-  background-image: url(img/list_bg2.png);
+  background-image: url(../images/list_bg2.png);
   width: 437px;
   height: 526px;
   display: inline-block;
@@ -277,12 +277,7 @@ pre {
 
 
 /* 로그인 팝업 꾸미기 */
-.login-title {
-  background: #006940;
-  margin: -15px -35px 15px;
 
-
-}
 
 .h2pop {
   font-size: 30px;
@@ -302,12 +297,8 @@ pre {
   /* padding: 15px 35px 45px; */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin: 0 auto;
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  overflow: hidden;
+  margin: 40px auto;
+
 
 }
 

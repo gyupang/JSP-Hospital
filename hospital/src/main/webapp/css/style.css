@@ -30,19 +30,19 @@ body{
 
 /***** header *****/
 /* LOGO */
-.logo{
+.logo>a{
     display: flex;
 }
-.logo>p{
+.logo a>p{
     font-size: 44px;
     font-weight: 900;
     margin: 30px 10px 20px 10px;
     
 }
-.logo p>span.a{
+.logo a p>span.a{
     color: #006940;
 }
-.logo p>span.b{
+.logo a p>span.b{
     color:#7CC242;
 }
 
@@ -164,7 +164,7 @@ header{
     position: absolute;
     z-index: 100;
     background-color: #fff;
-    display: none;
+display: none;
 }
 
 
@@ -269,6 +269,10 @@ header{
     background-color: #006940;
     color: white;
 }
+.login a{
+	 color: white;
+}
+
 
 .last-li span.join{
     border: 1px solid #ddd;
@@ -276,7 +280,9 @@ header{
     font-weight: 500;
 }
 
+
 .last-li{
+	
     margin-right: 30px;
 }
 
@@ -469,6 +475,136 @@ header{
     float: left;
     object-fit: cover;
 }
+
+
+
+/* ---------------아이템 메뉴------------------- */
+.tab-list .tab-in {
+    width: 1100px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.tab-in li {
+    flex: 1;
+    text-align: center;
+}
+
+.tab-in li .tab-item {
+    position: relative;
+    display: block;
+    height: 71px;
+    font-size: 16px;
+    color: #666;
+    line-height: 74px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tab-in li .tab-item:hover::after {
+    width: 100%;
+}
+
+.tab-in li .tab-item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    transform: translateX(-50%);
+    transition: width 0.5s ease;
+    background-color: #000;
+}
+
+/* 아이템 목록 */
+.list-thumb .filtert {
+    display: none;
+}
+
+.list-thumb .filtert.show {
+    display: block;
+}
+
+.thumb {
+    position: relative;
+    width: 350px;
+    height: 250px;
+}
+
+.thumb img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+li .item {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+}
+
+li .item:hover {
+    border-color: #888;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, .3);
+    z-index: 2;
+}
+
+.list-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 0;
+}
+
+
+
+/* 아이템 세부항목 */
+
+
+.item .des {
+    font-size: 14px;
+    color: #888;
+    margin: 8px 0 0;
+    line-height: 22px;
+    height: 66px;
+    display: block;
+}
+
+span.cater{
+    display: inline-block;
+    height: 30px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    background-color: #eee;
+    text-align: center;
+    line-height: 30px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: 0 12px 0 0;
+}
+span.cater::before{
+    background-color: #ce6a51;
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 100%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+span.subj{
+    margin-left: 10px;
+}
+
+
+
+
 /************** footer ************/
 footer{
     width: 100%;

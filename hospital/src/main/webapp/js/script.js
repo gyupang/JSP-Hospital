@@ -22,7 +22,7 @@ $('.under-nav').hover(function(){
       })
     }
     
-
+   filterSelection("total");
 });//Jquery
 
 
@@ -44,4 +44,17 @@ $('.tab a').click(function(e){
   $('.tab-content>div').removeClass('active');
   $(myid).addClass('active');
 });
+  
+  
+  
+  //item js
+  
+  function filterSelection(c) {
+    $(".filtert").removeClass("show");
+    if (c == "total") {
+      $(".filtert").addClass("show");
+    } else {
+      $(".filtert." + c).addClass("show");
+    }
+  }
   

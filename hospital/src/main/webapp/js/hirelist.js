@@ -1,4 +1,4 @@
-fetch('./data/hire.json')
+fetch('data/hire.json')
 .then((res)=>res.json())
 .then((res)=>{
     const rs = res.hirelist;
@@ -6,7 +6,7 @@ fetch('./data/hire.json')
 
     for(let i = 0; i < rs.length; i++){
         div += `<li class="s-list">
-         <a href="./2main.html">
+          <a href="2main.jsp">
             <div class="inner">
                 <div class="cate2">채용공고</div>
                 <div class="date"><i class="fa-regular fa-clock"></i>${rs[i].date}</div>

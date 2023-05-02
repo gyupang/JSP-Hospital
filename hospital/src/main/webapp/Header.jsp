@@ -3,24 +3,26 @@
        <div class="container">
         <header>
             <div class="logo">
+                <a href="Main.jsp">
                 <p><span class="a">D</span><span class="b">H</span></p>
                 <div class="name">
                     <p class="kr">대학교병원</p>
                     <p class="en">university hospital</p>
                 </div>
+            </a>
             </div>
             <div class="nav">
                 <div class="left-nav">
                     <ul>
                         <li><a href="#">진료안내</a></li>
                         <li><a href="#">진료예약 및 조회</a></li>
-                        <li><a href="#">이용안내</a></li>
-                        <li><a href="#">병원소개</a></li>
+                        <li><a href="2main.jsp">이용안내</a></li>
+                        <li><a href="Item.jsp">병원소개</a></li>
                     </ul>
                 </div>
                 <div class="right-nav">
                     <ul>
-                        <li><a href="#">로그인</a></li>
+                        <li><a href="LoginForm.jsp">로그인</a></li>
                         <li><a href="#">회원가입</a></li>
                         <li><a href="#">그룹웨어</a></li>
                         <li><a href="#">KOR
@@ -63,19 +65,12 @@
                 <li class="last-li">
                     <p><span class="green">온라인 가족</span>이 되어 주세요!</p>
                     <p class="small">스마트한 온라인 서비스를 이용하실 수 있습니다.</p>
-                    <span class="login">로그인</span>
+                    <span class="login"><a href="LoginForm.jsp">로그인</a></span>
                     <span class="join">회원가입</span>
                 </li>
             </ul>
         </div>
     
 
-        <div class="slider-box">
-            <div class="slider">
-                <img src="./images/hospital.jpg" alt="001" class="zindex2">
-                <img src="./images/building.jpg" alt="002" class="zindex1">
-                <img src="./images/trust.jpg" alt="003">
-            </div>
-        </div>
 
     </div>
