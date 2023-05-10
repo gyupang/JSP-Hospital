@@ -28,7 +28,7 @@
 
             <div class="footer-site">
                 <p>(12345) 희망광역시 희망구 희망동로 123</p>
-                <p>희망대학교병원 대표전화: 1111-1234 응급센터: 000-000-1234,1235</p>
+                <p>이젠대학교병원 대표전화: 1111-1234 응급센터: 000-000-1234,1235</p>
                 <p>copyright(c) 2023. WISH UNIVERSITY HOSPITAL. ALL RIGHTS RESERVED.</p>
             </div>
         </div>
