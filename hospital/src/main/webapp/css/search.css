@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+.container1{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*  */
+.title{
+    text-align: center;
+    position: relative;
+}
+.title img{ 
+    height: 130px;
+    object-fit: cover;
+    position: absolute;
+    left: 310px;
+    top: 30px;
+    
+}
+.title h2{
+    padding-top: 120px;
+    margin-left: 130px;
+}
+.title h2::after{
+    content: "";
+    width: 310px;
+    height: 2px;
+    background: #006940;
+    position: absolute;
+    bottom: -5px;
+    left: 510px;
+}
+.main_title{
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 100px;
+}
+
+/* 진료과 */
+.main-box{
+    background: #eee;
+    height: 930px;
+}
+.box-item{
+    padding: 100px 70px 40px;
+}
+.box-item ul{
+    margin: 0;
+    padding: 0;
+}
+.box-item li{
+    float: left;
+    padding-left: 60px;
+    padding-bottom: 70px;
+}
+.part-item{
+    position: relative;
+}
+.part-name{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    text-align: center;
+    padding: 40px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.part-name img{
+    width: 80px;
+    height: 80px;
+}
+.part-name p{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+.part-hover{
+    width: 200px;
+    height: 200px;
+    background-color: #006940;
+    color: #fff;
+    text-align: center;
+    padding: 20px 30px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    display: none;
+}
+.part-hover h3{
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.part-hover h3::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 125px;
+    left: 85px;
+}
+.part-sub{
+    display: flex;
+}
+.doc,
+.res{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.doc i,
+.res i{
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    background: #01462b;
+}
+.doc i:hover,
+.res i:hover{
+    color: #01462b;
+    background: #fff;
+}
+.doc p,
+.res p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    font-size: 13px;
+}

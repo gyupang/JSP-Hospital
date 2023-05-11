@@ -6,7 +6,7 @@ fetch('data/notice.json')
 
     for(let i = 0; i < rs.length; i++){
       div += `<li class="s-list">
-         <a href="2main.jsp">
+         <a href="notice.jsp">
           <div class="inner">
             <div class="cate">공지사항</div>
             <div class="date"><i class="fa-regular fa-clock"></i>${rs[i].date}</div>

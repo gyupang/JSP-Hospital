@@ -1,17 +1,17 @@
 $(function(){
     $('.gnb li').hover(function(){
         $('.lnb').stop().slideToggle();
-        $('.nav-back').stop().slideToggle();
+        $('.nav-back').stop().fadeToggle();
+ 
     });
 
     $('.lnb').hover(function(){
         $('.lnb').stop().slideToggle();
-        $('.nav-back').stop().slideToggle();
+        $('.nav-back').stop().fadeToggle();
     });
 
    //main pop slide
 
-   setInterval(myslide,3000);
    
    function myslide(){
      $('.do-slide').animate({
@@ -23,6 +23,45 @@ $(function(){
        $('.do-slide').css('left',0);
      })
    }
+   /* search script
+   */
+       $('#gnb-a').hover(function(){
+        $(this).find('.lnb-a').stop().slideToggle();
+    })
+    $('#gnb-b').hover(function(){
+        $(this).find('.lnb-b').stop().slideToggle();
+    })
+
+    // part-item
+    $('.part-item').mouseenter(function(){
+        $(this).find('.part-hover').stop().fadeIn();
+    })
+    $('.part-item').mouseleave(function(){
+        $(this).find('.part-hover').stop().fadeOut();
+    })
+   
+   
+   
+  // 페이지 끝까지 스크롤할 때 발생하는 이벤트
+  var $w = $(window),
+    footerHei = $('footer').outerHeight(),
+    $doctor = $('.pr-doctor');
+
+  $w.on('scroll', function() {
+
+    var sT = $w.scrollTop();
+    var val = $(document).height() - $w.height() - footerHei;
+
+    if (sT >= val)
+      $doctor.addClass('on')
+    else
+      $doctor.removeClass('on')
+
+  });
+
+   
+   setInterval(myslide,3000);
+   filterSelection("total");
 });//Jquery
 
 

@@ -4,8 +4,8 @@
 }
 
 
-/* 게시판 알림 제목부분 */
-.post-top-box {
+/* 게시판 알림 제목부분  style.css 로 옴겨놈 */
+/* .post-top-box {
   height: 300px;
   background: linear-gradient(135deg, #02762e 0%, #006940 100%);
   position: relative;
@@ -43,7 +43,7 @@
   right: 0px;
   top: 140px;
 }
-
+ */
 
 
 
@@ -297,7 +297,7 @@ pre {
   /* padding: 15px 35px 45px; */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin: 40px auto;
+  margin: 100px auto;
 
 
 }

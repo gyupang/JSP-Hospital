@@ -16,31 +16,31 @@
                     <ul class="gnb">
                         <li><a href="search.jsp">병원소개</a>
                             <ul class="lnb">
-                                <li><a href=""search.jsp"">병원소개</a></li>
-                                <li><a href=""search.jsp"">의료진소개</a></li>
-                                <li><a href=""search.jsp"">찾아오시는 길</a></li>
+                                <li><a href="search.jsp">병원소개</a></li>
+                                <li><a href="heart.jsp">의료진소개</a></li>
+                                <li><a href="search.jsp">찾아오시는 길</a></li>
                             </ul>
                         </li>
-                        <li><a href="2main.jsp">병원소식</a>
+                        <li><a href="notice.jsp">병원소식</a>
                             <ul class="lnb">
-                                <li><a href="2main.jsp">병원소식</a></li>
-                                <li><a href="2main.jsp">공지사항</a></li>
-                                <li><a href="2main.jsp">채용안내</a></li>
+                                <li><a href="notice.jsp">병원소식</a></li>
+                                <li><a href="notice.jsp">공지사항</a></li>
+                                <li><a href="notice.jsp">채용안내</a></li>
                                 
                             </ul>
                         </li>
-                        <li><a href="Reserv.jsp">진료예약</a>
+                        <li><a href="reserv.jsp">진료예약</a>
                             <ul class="lnb">
-                                <li><a href="Reserv.jsp">첫진료 예약</a></li>
-                                <li><a href="Reserv.jsp">예약확인</a></li>
-                                <li><a href="Reserv.jsp">전화문의</a></li>
+                                <li><a href="reserv.jsp">첫진료 예약</a></li>
+                                <li><a href="reserv.jsp">예약확인</a></li>
+                                <li><a href="reserv.jsp">전화문의</a></li>
                             </ul>
                         </li>
-                        <li><a href="item.jsp">병원의료매장</a>
+                        <li><a href="Item.jsp">병원의료매장</a>
                             <ul class="lnb">
-                                <li><a href="item.jsp">자체개발물품</a></li>
-                                <li><a href="item.jsp">편의시설</a></li>
-                                <li><a href="item.jsp">가까운 약국</a></li>
+                                <li><a href="Item.jsp">자체개발물품</a></li>
+                                <li><a href="Item.jsp">편의시설</a></li>
+                                <li><a href="Item.jsp">가까운 약국</a></li>
                             </ul>
                         </li>
                     </ul>

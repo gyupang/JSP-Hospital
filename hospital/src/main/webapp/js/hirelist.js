@@ -6,9 +6,9 @@ fetch('data/hire.json')
 
     for(let i = 0; i < rs.length; i++){
         div += `<li class="s-list">
-          <a href="2main.jsp">
+          <a href="heart.jsp">
             <div class="inner">
-                <div class="cate2">채용공고</div>
+                <div class="cate2">수상소식</div>
                 <div class="date"><i class="fa-regular fa-clock"></i>${rs[i].date}</div>
                 <strong>
                     <span>${rs[i].title}</span>
