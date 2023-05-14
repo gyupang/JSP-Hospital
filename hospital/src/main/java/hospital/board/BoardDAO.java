@@ -57,10 +57,11 @@ public class BoardDAO extends JDBConnect {
 				// 한 행(게시물 하나)의 내용을 DTO에 저장
 				BoardDTO dto = new BoardDTO();
 
+
 				dto.setNum(rs.getString("num")); // 일련번호
 				dto.setTitle(rs.getString("title")); // 제목
 				dto.setContent(rs.getString("content")); // 내용
-				dto.setPostdate(rs.getDate("postdate")); // 작성일
+				dto.setPostdate(rs.getTimestamp("postdate")); // 작성일
 				dto.setId(rs.getString("id")); // 작성자 아이디
 				dto.setVisitcount(rs.getString("visitcount")); // 조회수
 

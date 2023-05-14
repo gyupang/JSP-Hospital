@@ -6,7 +6,7 @@ public class BoardDTO {
 	private String title;
 	private String content;
 	private String id;
-	private java.sql.Date postdate;
+	private java.sql.Timestamp postdate;
 	private String visitcount;
 	private String name;
 
@@ -46,11 +46,13 @@ public class BoardDTO {
 		this.id = id;
 	}
 
-	public java.sql.Date getPostdate() {
+	public java.sql.Timestamp getPostdate() {
+
 		return postdate;
 	}
 
-	public void setPostdate(java.sql.Date postdate) {
+	public void setPostdate(java.sql.Timestamp postdate) {
+
 		this.postdate = postdate;
 	}
 

@@ -6,7 +6,7 @@ public class MemberDTO {
 	private String id;
 	private String pass;
 	private String name;
-	private String regidate;
+	private java.sql.Timestamp regidate;
 
 	// 멤버 변수별 게터와 세터
 	public String getId() {
@@ -33,13 +33,14 @@ public class MemberDTO {
 		this.name = name;
 	}
 
-	public String getRegidate() {
+	public java.sql.Timestamp getRegidate() {
 		return regidate;
 	}
 
-	public void setRegidate(String regidate) {
+	public void setRegidate(java.sql.Timestamp regidate) {
 		this.regidate = regidate;
 	}
+
 
 
 }

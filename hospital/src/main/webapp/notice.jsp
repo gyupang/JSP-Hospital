@@ -1,3 +1,5 @@
+<%@page import="java.time.format.DateTimeFormatter"%>
+<%@page import="java.time.LocalDate"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.HashMap"%>
 <%@page import="java.util.Map"%>
@@ -76,6 +78,11 @@ else {
     for (BoardDTO dto : boardLists)
     {
         virtualNum = totalCount--;  // 전체 게시물 수에서 시작해 1씩 감소
+        
+        // postcode 시간 표시 없애야됨.
+        LocalDate date = dto.getPostdate().toLocalDateTime().toLocalDate();
+        String formattedDate = date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+
 %>
 <!-- 게시글 -->
 <div class="post-box">
@@ -85,7 +92,9 @@ else {
   <div class="post-right">
     <div class="post-top">
       <div>이젠대학교병원</div>
-      <span id="post-date"><%= dto.getPostdate() %></span>
+      <span id="post-date"><%= formattedDate %></span>
+      
+      
     </div>
     <div class="post-main">
       <pre><%= dto.getContent() %></pre>
