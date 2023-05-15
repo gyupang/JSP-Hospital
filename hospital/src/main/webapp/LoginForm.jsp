@@ -44,8 +44,8 @@
             <h2 class="h2pop">MEMBER LOGIN</h2>
           </div>
         
-                  <input type="text" class="formInput" name="user_id" placeholder="아이디" required />
-          <input type="password" class="formInput" name="user_pw" placeholder="비밀번호" required />
+                  <input type="text" class="formInput" name="user_id" placeholder="아이디 test" required />
+          <input type="password" class="formInput" name="user_pw" placeholder="비밀번호 1234" required />
           <div class="btn-box">
             <button type="submit" class="logButton">로그인</button>
           </div>
