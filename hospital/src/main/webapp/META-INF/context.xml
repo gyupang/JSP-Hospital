@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <Context>
+         <Resource auth="Container"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              type="javax.sql.DataSource"
+              
+              initialSize="0"
+              minIdle="5"
+              maxTotal="20"
+              maxIdle="20"
+              maxWaitMillis="5000"
+              url="jdbc:mysql://localhost:3306/membertest"
+              name="dbcp_mysql"
+              username="musthave"
+              password="1234" />
+
+</Context>
